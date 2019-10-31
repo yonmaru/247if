@@ -90,6 +90,7 @@ a:hover img {
     padding:33px 0;
     background: url("../img/bg01_pc.png") no-repeat center center;
     background-size: cover;
+    min-width: 960px;
 }
 .title img {
     width:472px;
@@ -183,6 +184,7 @@ a:hover img {
     background: url("../img/bg05_pc.png") no-repeat 0 0;
     max-width: 1200px;
     margin:0 auto;
+    min-width: 960px;
 }
 .section04 .training .inner {
     padding-bottom: 88px;
@@ -217,6 +219,7 @@ a:hover img {
     background: url("../img/bg06_pc.png") no-repeat right 0;
     max-width: 1200px;
     margin:0 auto;
+    min-width: 960px;
 }
 .section04 .bike .inner {
     padding-bottom: 216px;
@@ -229,6 +232,7 @@ a:hover img {
     background: url("../img/bg07_pc.png") no-repeat center 0;
     max-width: 1200px;
     margin:0 auto;
+    min-width: 960px;
 }
 .section04 .studio .inner {
     padding-bottom: 80px;
@@ -269,10 +273,10 @@ a:hover img {
 }
 .section05 .slider {}
 .section05 .slider .slick-list {
-    padding: 10px 0;
+    padding: 10px;
 }
 .section05 .s5_slide {
-    padding:0 20px;
+    padding:0 30px;
     position: relative;
 }
 .section05 .s5_slide:before {
@@ -283,7 +287,7 @@ a:hover img {
     display: block;
     background-position: 0 0;
     background-repeat: no-repeat;
-    left:10px;
+    left:20px;
     top:-10px;
 }
 .section05 .s5_slide.step1:before {
@@ -325,6 +329,7 @@ a:hover img {
 
 
 .section06 {
+    min-width: 960px;
     background-color: #212121;
 }
 .section06 .inner {
@@ -365,6 +370,9 @@ a:hover img {
     left:26px;
 }
 
+#footer {
+    min-width: 960px;
+}
 #footer .left_col {
     float:left;
 }
@@ -418,5 +426,37 @@ a:hover img {
     font-size:1.3rem;
     padding:1em 0;
     display: inline-block;
+}
+
+body .slick-prev,
+body .slick-next {
+    width: auto;
+    height: auto;
+}
+.slick-next {
+    right: 0 !important;
+    z-index: 10;
+}
+.slick-prev {
+    left: 0 !important;
+    z-index: 10;
+}
+
+
+body .slick-prev:before,
+body .slick-next:before {
+    font-family: "icomoon";
+    font-size: 4rem;
+    line-height: 1;
+    opacity: .75;
+    color: white;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body .slick-prev:before {
+    content: '\e906';
+}
+body .slick-next:before {
+    content: '\e907';
 }
 

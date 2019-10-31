@@ -63,6 +63,7 @@ img {
 .title {
     width:100%;
     padding:1em 0;
+    min-width: inherit;
 }
 .title img {
     width:80%;
@@ -149,6 +150,7 @@ img {
     background-size: 100%;
     max-width: inherit;
     margin:0 auto;
+    min-width: inherit;
 }
 .section04 .training .inner {
     padding-bottom: 12%;
@@ -184,6 +186,7 @@ img {
     background-size: 80%;
     max-width: inherit;
     margin:0 auto;
+    min-width: inherit;
 }
 .section04 .bike .inner {
     padding-bottom: 18%;
@@ -198,6 +201,7 @@ img {
 .section04 .studio {
     background-size: 180%;
     max-width: inherit;
+    min-width: inherit;
 }
 .section04 .studio .inner {
     padding-bottom: 12%;
@@ -278,6 +282,10 @@ img {
 }
 
 
+    
+.section06 {
+    min-width: inherit;
+}
 .section06 .inner {
     padding:5% 0 12%;
 }
@@ -312,7 +320,9 @@ img {
 }
 
 
-
+#footer {
+    min-width: inherit;
+}
 #footer .left_col {
     float:none;
 }
@@ -361,8 +371,8 @@ img {
 
 
 .slick-next {
-    right: -10px !important;
+    right: -20px !important;
 }
 .slick-prev {
-    left: -10px !important;
+    left: -20px !important;
 }
