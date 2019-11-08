@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?lbu145');
-  src:  url('fonts/icomoon.eot?lbu145#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?lbu145') format('truetype'),
-    url('fonts/icomoon.woff?lbu145') format('woff'),
-    url('fonts/icomoon.svg?lbu145#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?tnnrw8');
+  src:  url('fonts/icomoon.eot?tnnrw8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?tnnrw8') format('truetype'),
+    url('fonts/icomoon.woff?tnnrw8') format('woff'),
+    url('fonts/icomoon.svg?tnnrw8#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,11 +25,11 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-a:before {
-  content: "\e904";
+.icon-chevron-left:before {
+  content: "\e906";
 }
-.icon-q:before {
-  content: "\e905";
+.icon-chevron-right:before {
+  content: "\e907";
 }
 .icon-minus:before {
   content: "\e900";
@@ -39,6 +39,12 @@
 }
 .icon-directions_bike:before {
   content: "\e902";
+}
+.icon-a:before {
+  content: "\e904";
+}
+.icon-q:before {
+  content: "\e905";
 }
 .icon-travel-walk:before {
   content: "\e903";
